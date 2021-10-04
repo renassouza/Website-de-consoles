@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background:linear-gradient(45deg, #63b1ff, #0000FF);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    min-width: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main.container{
+    background: white ;
+    max-width: 350px;
+    min-height: 35vh;
+    padding: 2rem;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 14px;
+}
+
+main h2{
+    font-weight: 600;
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+main h2 ::before{
+    content: '';
+    position: absolute;
+    
+ 
+}
+
+.input-field{
+    margin-top: 1rem;
+    position: relative;
+    
+}
+
+
+.input-field input{
+        position: relative;
+        outline: none;
+        font-size: 0.9rem;
+        color: rgba(0, 0, 0, 0.7);
+        
+}
+
+.input-fild input ::placeholder{
+    color: rgba(0, 0, 0, 0.5);
+}
+
+    
+        form input[type="submit"]{
+        width: 100%;
+        height: 40px ;
+        margin-top: 1rem;
+        padding: 0.4rem;
+        background: linear-gradient(to left, #044ff1, #4284ff);
+        border-radius: 25px;
+        cursor: pointer;
+        color: white;
+        font-size: 0.9rem;
+        font-weight: 500;
+        transition: all 0.3s ease;
+        
+    }
+    
+    form input[type="submit"]:hover{
+        letter-spacing: 0.5px;
+        background: linear-gradient(to left, #044ff1, #4284ff);
+        
+    }
+
+    .footer{
+        display: flex ;
+        flex-direction: column;
+        margin-top: 1rem;
+    }
+
+
+    .Nova-conta span{
+        display: flex;
+        flex-direction: column;
+        margin-top: 1rem;
+        color: rgba(0, 0, 0, 0.7);
+        font-weight: 500;
+    
+    }
+
+   
+
+
+     
