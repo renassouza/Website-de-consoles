@@ -1,46 +1,46 @@
 *{
-    margin: 0;
-    border: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
+        margin: 0;
+        border: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
 }
 
 body{
-    background:linear-gradient(45deg, #63b1ff, #0000FF);
-    background-repeat: no-repeat;
-    min-height: 100vh;
-    min-width: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+        background:linear-gradient(45deg, #63b1ff, #0000FF);
+        background-repeat: no-repeat;
+        min-height: 100vh;
+        min-width: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
 }
 
 main.container{
-    background: white ;
-    max-width: 350px;
-    min-height: 35vh;
-    padding: 2rem;
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
-    border-radius: 14px;
+        background: white ;
+        max-width: 350px;
+        min-height: 35vh;
+        padding: 2rem;
+        box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+        border-radius: 14px;
 }
 
 main h2{
-    font-weight: 600;
-    margin-bottom: 1rem;
-    position: relative;
+        font-weight: 600;
+        margin-bottom: 1rem;
+        position: relative;
 }
 
 main h2 ::before{
-    content: '';
-    position: absolute;
+        content: '';
+        position: absolute;
     
  
 }
 
 .input-field{
-    margin-top: 1rem;
-    position: relative;
+        margin-top: 1rem;
+        position: relative;
     
 }
 
